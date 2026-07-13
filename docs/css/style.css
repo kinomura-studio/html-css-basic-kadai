@@ -98,6 +98,14 @@ h2 {
   スマホ
 ======================================== */
 @media screen and (max-width: 767px) {
+  .title {
+    font-size: 18px;
+    padding: 3px 10px;
+  }
+  #nav-pc a {
+    font-size: 18px;
+  }
+
   .about-container {
     flex-direction: column;
     align-items: center;
@@ -108,7 +116,16 @@ h2 {
   }
   .works-container {
     flex-direction: column;
-    align-items: center;
     gap: 20px;
+  }
+  .works-img {
+    max-width: 358px;
+    max-height: 268px;
+  }
+  .works-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
